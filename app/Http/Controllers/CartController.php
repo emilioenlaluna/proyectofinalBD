@@ -22,8 +22,8 @@ class CartController extends Controller
         }
 
         $viewData = [];
-        $viewData["title"] = "Cart - Online Store";
-        $viewData["subtitle"] =  "Shopping Cart";
+        $viewData["title"] = "Loin Minde";
+        $viewData["subtitle"] =  "Mi Carrito";
         $viewData["total"] = $total;
         $viewData["products"] = $productsInCart;
         return view('cart.index')->with("viewData", $viewData);

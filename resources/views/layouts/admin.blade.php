@@ -8,7 +8,7 @@
     crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <link href="{{ asset('/css/admin.css') }}" rel="stylesheet" />
-  <title>@yield('title', 'Admin - Online Store')</title>
+  <title>@yield('title', 'Loin Monde - Admin')</title>
 </head>
 
 <body>
@@ -20,10 +20,10 @@
       </a>
       <hr />
       <ul class="nav flex-column">
-        <li><a href="{{ route('admin.home.index') }}" class="nav-link text-white">- Admin - Home</a></li>
-        <li><a href="{{ route('admin.product.index') }}" class="nav-link text-white">- Admin - Products</a></li>
+        <li><a href="{{ route('admin.home.index') }}" class="nav-link text-white">- Admin - Inicio</a></li>
+        <li><a href="{{ route('admin.product.index') }}" class="nav-link text-white">- Admin - Productos</a></li>
         <li>
-          <a href="{{ route('home.index') }}" class="mt-2 btn bg-primary text-white">Go back to the home page</a>
+          <a href="{{ route('home.index') }}" class="mt-2 btn bg-primary text-white">Regresar a la página de inicio</a>
         </li>
       </ul>
     </div>
@@ -45,9 +45,9 @@
     <div class="container">
       <small>
         Copyright - <a class="text-reset fw-bold text-decoration-none" target="_blank"
-          href="https://twitter.com/danielgarax">
-          Daniel Correa
-        </a> - <b>Paola Vallejo</b>
+          href="#">
+          Quesoft++
+        </a> 
       </small>
     </div>
   </div>

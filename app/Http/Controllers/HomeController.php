@@ -9,17 +9,17 @@ class HomeController extends Controller
     public function index()
     {
         $viewData = [];
-        $viewData["title"] = "Home Page - Online Store";
+        $viewData["title"] = "Inicio -Loin Monde";
         return view('home.index')->with("viewData", $viewData);
     }
 
     public function about()
     {
         $viewData = [];
-        $viewData["title"] = "About us - Online Store";
-        $viewData["subtitle"] =  "About us";
-        $viewData["description"] =  "This is an about page ...";
-        $viewData["author"] = "Developed by: Your Name";
+        $viewData["title"] = "Acerca de - Loin Monde";
+        $viewData["subtitle"] =  "Nosotros";
+        $viewData["description"] =  "Pagina desarrollada para el BBVA Hackaton 2022";
+        $viewData["author"] = "Developed by: Quesoft++";
         return view('home.about')->with("viewData", $viewData);
     }
 }

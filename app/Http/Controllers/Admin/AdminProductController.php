@@ -12,7 +12,7 @@ class AdminProductController extends Controller
     public function index()
     {
         $viewData = [];
-        $viewData["title"] = "Admin Page - Products - Online Store";
+        $viewData["title"] = "Admin Page - Loin Monde";
         $viewData["products"] = Product::all();
         return view('admin.product.index')->with("viewData", $viewData);
     }
@@ -50,7 +50,7 @@ class AdminProductController extends Controller
     public function edit($id)
     {
         $viewData = [];
-        $viewData["title"] = "Admin Page - Edit Product - Online Store";
+        $viewData["title"] = "Editar Producto";
         $viewData["product"] = Product::findOrFail($id);
         return view('admin.product.edit')->with("viewData", $viewData);
     }
