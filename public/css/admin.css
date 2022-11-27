@@ -1,5 +1,5 @@
 .copyright {
-  background-color: #1a252f;
+  background-color: #000000;
 }
 
 .fixed {
@@ -8,7 +8,7 @@
 }
 
 .content-grey {
-  background-color: #f8f9fc;
+  background-color: #edc889;
 }
 
 hr {
@@ -22,7 +22,7 @@ hr {
 }
 
 .profile-font {
-  color: #858796 !important;
+  color: #000000 !important;
   font-size: 80%;
   font-weight: 400;
 }

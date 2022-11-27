@@ -74,15 +74,15 @@
                     <div class="row">
                         <div class="col-md-6 form-group">
                             <label>First Name</label>
-                            <input class="form-control" type="text" placeholder="John">
+                            <input class="form-control" type="text" placeholder="Juan">
                         </div>
                         <div class="col-md-6 form-group">
                             <label>Last Name</label>
-                            <input class="form-control" type="text" placeholder="Doe">
+                            <input class="form-control" type="text" placeholder="Perez">
                         </div>
                         <div class="col-md-6 form-group">
                             <label>E-mail</label>
-                            <input class="form-control" type="text" placeholder="example@email.com">
+                            <input class="form-control" type="text" placeholder="aaaaa@email.com">
                         </div>
                         <div class="col-md-6 form-group">
                             <label>Mobile No</label>
@@ -128,18 +128,18 @@
                     <div class="card-body">
                         <h5 class="font-weight-medium mb-3">Productos</h5>
                         <div class="d-flex justify-content-between">
-                            <p>Articulo 124545.</p>
-                            <p>$150</p>
+                            <p>Articulo ?.</p>
+                            <p>$?</p>
                         </div>
                         <div class="d-flex justify-content-between">
                             <p>Articulo </p>
-                            <p>$150</p>
+                            <p>$ ?</p>
                         </div>
                     </div>
                     <div class="card-footer border-secondary bg-transparent">
                         <div class="d-flex justify-content-between mt-2">
                             <h5 class="font-weight-bold">Total</h5>
-                            <h5 class="font-weight-bold">$160</h5>
+                            <h5 class="font-weight-bold">$ ?</h5>
                         </div>
                     </div>
                 </div>
@@ -151,19 +151,19 @@
                         <div class="form-group">
                             <div class="custom-control custom-radio">
                                 <input type="radio" class="custom-control-input" name="payment" id="paypal">
-                                <label class="custom-control-label" for="paypal">BBVA ...</label>
+                                <label class="custom-control-label" for="paypal">...</label>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="custom-control custom-radio">
                                 <input type="radio" class="custom-control-input" name="payment" id="directcheck">
-                                <label class="custom-control-label" for="directcheck">BBVA...</label>
+                                <label class="custom-control-label" for="directcheck">...</label>
                             </div>
                         </div>
                         <div class="">
                             <div class="custom-control custom-radio">
                                 <input type="radio" class="custom-control-input" name="payment" id="banktransfer">
-                                <label class="custom-control-label" for="banktransfer">BBVA ....</label>
+                                <label class="custom-control-label" for="banktransfer">...</label>
                             </div>
                         </div>
                     </div>

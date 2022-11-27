@@ -14,7 +14,7 @@
         </h5>
         <p class="card-text">{{ $viewData["product"]->getDescription() }}</p>
         <p class="card-text">
-        <form method="POST" action="{{ route('cart.add', ['id'=> $viewData['product']->getId()]) }}">
+        <form method="POST" action="{{ route('carrito.add', ['id'=> $viewData['product']->getId()]) }}">
           <div class="row">
             @csrf
             <div class="col-auto">

@@ -16,7 +16,7 @@
     <!-- sidebar -->
     <div class="p-3 col fixed text-white bg-dark">
       <a href="{{ route('admin.home.index') }}" class="text-white text-decoration-none">
-        <span class="fs-4">Admin Panel</span>
+        <span class="fs-4">Administración</span>
       </a>
       <hr />
       <ul class="nav flex-column">
@@ -30,7 +30,7 @@
     <!-- sidebar -->
     <div class="col content-grey">
       <nav class="p-3 shadow text-end">
-        <span class="profile-font">Admin</span>
+        <span class="profile-font">Administrador</span>
         <img class="img-profile rounded-circle" src="{{ asset('/img/undraw_profile.svg') }}">
       </nav>
 
@@ -44,10 +44,7 @@
   <div class="copyright py-4 text-center text-white">
     <div class="container">
       <small>
-        Copyright - <a class="text-reset fw-bold text-decoration-none" target="_blank"
-          href="#">
-          Quesoft++
-        </a> 
+        Universidad Autónoma de Aguascalientes
       </small>
     </div>
   </div>

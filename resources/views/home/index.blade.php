@@ -6,10 +6,10 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6 text-md-start text-center py-6">
-        <h1 class="mb-4 fs-9 fw-bold">En BBVA llevamos el metaverso <br class="d-none d-xl-block" />más cerca de ti...</h1>
+        <h1 class="mb-4 fs-9 fw-bold">Proyecto Final: Base de Datos</h1>
         
       </div>
-      <div class="col-md-6 text-end"><img class="pt-7 pt-md-0 img-fluid" src="{{ asset('/img/m.jpg') }}" alt="" /></div>
+      <div class="col-md-6 text-end"><img class="pt-7 pt-md-0 img-fluid" src="{{ asset('/img/UAA-LOGO.png') }}" alt="" /></div>
     </div>
   </div>
 </section>
@@ -23,24 +23,18 @@
           <!--/.bg-holder-->
   
           <div class="container">
-            <h1 class="fs-9 fw-bold mb-4 text-center"> Descubre las funciones de LoinMonde...</h1>
             <div class="row">
               <div class="col-lg-4 col-sm-6 mb-2"> 
-                <h4 class="mb-3">Promociona tus productos</h4>
-                <p class="mb-0 fw-medium text-secondary">Crea tu tienda en el metaverso</p>
+                <h4 class="mb-3">BASE DE DATOS</h4>
+                <p class="mb-0 fw-medium text-secondary">Centro de Ciencias Básicas</p>
               </div>
               <div class="col-lg-4 col-sm-6 mb-2"> 
-                <h4 class="mb-3">LLega a más vendedores</h4>
-                <p class="mb-0 fw-medium text-secondary">El marketing y publicidad son nuestro objetivo</p>
-              </div>
-              <div class="col-lg-4 col-sm-6 mb-2"> 
-                <h4 class="mb-3">Aprende con el metaverso Educativo</h4>
-                <p class="mb-0 fw-medium text-secondary">Diseñado para los pequeños.</p>
+                <h4 class="mb-3">Departamento: SISTEMAS DE INFORMACIÓN</h4>
+                <p class="mb-0 fw-medium text-secondary">INGENIERO EN COMPUTACIÓN INTELIGENTE
+                </p>
               </div>
             </div>
-            <div class="text-center"><a class="btn btn-warning" href="#!" role="button">Ir a Metaverso</a></div><br>
-            <div class="text-center"><a class="btn btn-warning" href="#!" role="button">Metaverso Educativo</a></div>
-          
+            
           
           </div><!-- end of .container-->
   

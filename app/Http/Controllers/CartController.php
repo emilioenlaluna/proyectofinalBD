@@ -22,7 +22,7 @@ class CartController extends Controller
         }
 
         $viewData = [];
-        $viewData["title"] = "Loin Minde";
+        $viewData["title"] = "Tienda Digital";
         $viewData["subtitle"] =  "Mi Carrito";
         $viewData["total"] = $total;
         $viewData["products"] = $productsInCart;
@@ -35,7 +35,7 @@ class CartController extends Controller
         $products[$id] = $request->input('quantity');
         $request->session()->put('products', $products);
 
-        return redirect()->route('cart.index');
+        return redirect()->route('carrito.index');
     }
 
     public function delete(Request $request)
@@ -76,12 +76,12 @@ class CartController extends Controller
             $request->session()->forget('products');
 
             $viewData = [];
-            $viewData["title"] = "Purchase - Online Store";
-            $viewData["subtitle"] =  "Purchase Status";
+            $viewData["title"] = "Compras";
+            $viewData["subtitle"] =  "Estado de Compras";
             $viewData["order"] =  $order;
             return view('cart.purchase')->with("viewData", $viewData);
         } else {
-            return redirect()->route('cart.index');
+            return redirect()->route('carrito.index');
         }
     }
 }
