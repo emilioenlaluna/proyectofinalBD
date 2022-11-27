@@ -1,4 +1,2 @@
-# bbvaHackaton2022
- Repositorio del equipo Quesoft++ para el hackaton 2022
-
-Loin Monde
+# Proyecto Final
+ Repositorio del proyecto final base de datos
